@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
+
+* {
+  font-family: 'Cherry Swash', cursive;
+}
+
+body {
+  background:#2196F3;
+}
+
+.container {
+   padding: 0;
+   text-align: center;
+}
+
+.title, .myButton {
+   color:#9C27B0;
+}
+
+#timerLabel {
+   margin-top: 10px;
+   color:#fff;
+}
+
+.myButton {
+  width: 100px;
+  height: 50px;
+  margin: 0;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background:#fff; 
+  font-size: 1em;
+ 
+}
+input:hover{
+   background:#9C27B0;
+   color:#fff;
+}
+
+@media screen and(max-width: 340px) {
+   .myButton {
+      width: 70px;
+   }
+}

@@ -1,6 +1,8 @@
 
 const express = require("express");
 const app = express();
+const axios = require("axios");
+const { response } = require("express");
 
 
 app.use(express.urlencoded({extended:false}));
@@ -20,6 +22,17 @@ app.post("/login",(req,res) => {
     res.status(200).send({email,password});
 });
 
+app.get("/pokemon",(req,res) => {
+    axios
+    .get("https://pokeapi.co/api/v2/ability/7/")
+    .then(response) => {
+        console.log(response.data);
+        return res.status(200).send(response.data);
+    })
+    .catch((error) => {
+        return res.status(500).send("error");
+    });
+});
 
 
 const PORT =5001;
