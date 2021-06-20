@@ -5,7 +5,7 @@ const blogSchema = new Schema({
     heading: {
         type: String,
     },
-    blog: {
+    blogdata: {
         type: String,
     },
     userid: {

@@ -24,16 +24,7 @@ const adminroute = require("./routes/admin");
 const userroute = require('./routes/user');
 app.use("/admin",adminroute)
 app.use("/user",userroute)
-app.get('/ab', function (req, res) {
-  var myobj = { name: "Company Inc", address: "Highway 37" };
-  mongo.db.collection("blogcollection").insertOne(myobj, function(err, res) {
-    if (err) throw err;
-    console.log("1 document inserted");
-    
-  });
 
-  res.send('GET request to the homepage')
-})
 
 // POST method route
 app.post('/', function (req, res) {
