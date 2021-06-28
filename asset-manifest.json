@@ -1,13 +1,13 @@
 {
-  "main.css": "/MERN/tree/main/myPortfolio/static/css/main.83e0d013.chunk.css",
-  "main.js": "/MERN/tree/main/myPortfolio/static/js/main.49de2203.chunk.js",
-  "main.js.map": "/MERN/tree/main/myPortfolio/static/js/main.49de2203.chunk.js.map",
-  "runtime~main.js": "/MERN/tree/main/myPortfolio/static/js/runtime~main.bffea00b.js",
-  "runtime~main.js.map": "/MERN/tree/main/myPortfolio/static/js/runtime~main.bffea00b.js.map",
-  "static/js/2.5ec21d73.chunk.js": "/MERN/tree/main/myPortfolio/static/js/2.5ec21d73.chunk.js",
-  "static/js/2.5ec21d73.chunk.js.map": "/MERN/tree/main/myPortfolio/static/js/2.5ec21d73.chunk.js.map",
-  "index.html": "/MERN/tree/main/myPortfolio/index.html",
-  "precache-manifest.a56a982653b2cf613a173015bc14f630.js": "/MERN/tree/main/myPortfolio/precache-manifest.a56a982653b2cf613a173015bc14f630.js",
-  "service-worker.js": "/MERN/tree/main/myPortfolio/service-worker.js",
-  "static/css/main.83e0d013.chunk.css.map": "/MERN/tree/main/myPortfolio/static/css/main.83e0d013.chunk.css.map"
+  "main.css": "/me/static/css/main.7b5ee82d.chunk.css",
+  "main.js": "/me/static/js/main.a5823196.chunk.js",
+  "main.js.map": "/me/static/js/main.a5823196.chunk.js.map",
+  "runtime~main.js": "/me/static/js/runtime~main.1caf0789.js",
+  "runtime~main.js.map": "/me/static/js/runtime~main.1caf0789.js.map",
+  "static/js/2.5ec21d73.chunk.js": "/me/static/js/2.5ec21d73.chunk.js",
+  "static/js/2.5ec21d73.chunk.js.map": "/me/static/js/2.5ec21d73.chunk.js.map",
+  "index.html": "/me/index.html",
+  "precache-manifest.97e8b33ac33881fea303301370deb81f.js": "/me/precache-manifest.97e8b33ac33881fea303301370deb81f.js",
+  "service-worker.js": "/me/service-worker.js",
+  "static/css/main.7b5ee82d.chunk.css.map": "/me/static/css/main.7b5ee82d.chunk.css.map"
 }
