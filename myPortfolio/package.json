@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Anonymous1241999.github.io/MERN/tree/main/myPortfolio",
+  "homepage": "https://Anonymous1241999.github.io/me",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "react": "^16.8.3",
