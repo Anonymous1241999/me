@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MERN/myPortfolio/precache-manifest.f23b7ec7ae33d533c06410539da4c084.js"
+  "/MERN/tree/main/myPortfolio/precache-manifest.a56a982653b2cf613a173015bc14f630.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MERN/myPortfolio/index.html", {
+workbox.routing.registerNavigationRoute("/MERN/tree/main/myPortfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
